@@ -1,0 +1,143 @@
+/*
+Notes to self:
+  add images to CSS file
+
+Breakdown of screen
+  statusbar
+  search
+  map
+  divider
+  buslistings
+*/
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  width: 375px; /*default iPhone 8*/
+  height: 667px; /*default iPhone 8*/
+  border: 1px solid #000000;
+  margin: 50px;
+}
+
+.background {
+  background-image: url(../images/statusbar.png), url(../images/MapElements.png);
+  background position: top, top;
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, cover;
+  height: 330px;
+  border-bottom: 3px solid #D9DADC;
+} /* statusbar & map image */
+
+ul {
+  padding: 270px 20px 0px 20px;
+}
+
+li {
+  /*padding: 10px;*/
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 15px;
+  border: 1px solid #EBEBEB;
+  border-radius: 8px;
+}
+
+h1 {
+  font-size: 1.3em;
+  display: inline-block;
+  padding: 10px 0px 0px 25px;
+  position: absolute;
+  font-weight: bolder;
+}
+
+h3 {
+  padding: 0px 0px 0px 25px;
+  display: inline; /* estimated line on same line as frequency */
+}
+
+h2 {
+  padding-top: 12px;
+  font-size: 1.3em;
+  float: right;
+  font-weight: bolder;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 3.4em;
+  display: inline-block; /*lines up destination w/ bus # */
+  width: 18%;
+  /* padding-top: 20px; */
+}
+
+.sixtystop {
+  color: #9E0FC1;
+}
+
+.onetwentyfourstop {
+  color: #22A0A8;
+}
+
+.onefiftyfourstop {
+  color: #F0A81C;
+}
+
+.jfourteenstop {
+  color: #4176FF;
+}
+
+.text {
+  display: inline;
+}
+
+.search {
+  padding: 30px 20px 0px 20px;
+}
+
+.searchbox {
+  height: 30px;
+  width: 260px;
+  background-image: url(../images/switchicon.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.backbutton {
+  background-image: url(../images/BackButtonIcon.png);
+  background-repeat: no-repeat;
+  height: 23px;
+  width: 22px;
+  border: none;
+}
+
+.morebutton{
+  background-image: url(../images/ellipsis.png);
+  background-repeat: no-repeat;
+  height: 23px;
+  width: 22px;
+  border: none;
+}
+
+.dividerscroll {
+  background-image: url(../images/pullscreen.png);
+  background-repeat: no-repeat;
+  height: 20px;
+  width: 80px;
+  border: none;
+}
+
+.liveicon {
+  background-image: url(../images/livetimeicon.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  float: left;
+}
