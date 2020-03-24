@@ -1,0 +1,72 @@
+<!--
+Notes to self:
+  you will probably need a bunch of different h sizes
+
+Breakdown of screen
+  status bar
+  back arrow, search bar + arrows?, ellipses
+  map background + little elements on top or can that be part of the photo?
+  divider
+  bus listings - use list items (contain these in inline-block?)
+    bus number, destination, frequency, time to stop, right arrow
+  scrolling bar (float right?)
+-->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body>
+    <section class="background">
+    <section class="search">
+      <button type="button" class="backbutton"> </button>
+      <input type="search" placeholder="Washington/State" class="searchbox"> <!-- search box ; add class/id + text-->
+      <button type="button" class="morebutton"> </button><!-- button class + p text for search box; export as icons and turn into buttons or link with hrefs, anchor tag -->
+    </section>
+    <section class="divider">
+      <input type="button" class="dividerscroll"> <!-- style with css w/ border + add a shape to float on top-->
+    </section>
+    <section class="buslistings"> <!-- set to a certain size; look up in W3 schools how to get it to scroll -->
+<!-- blue live icon - export as icons, use CSS to place it -->
+      <ul>
+        <li>
+            <h4 class="sixtystop"> 60 </h4>
+          <div class="text">
+            <h1> Randolph/Harbor Dr </h1>
+            <h2> <span class="liveicon"> 2 min </span> </h2>
+            <h3> *comes every 20 min </h3>
+          </div>
+        </li>
+        <li>
+            <h4 class="onetwentyfourstop"> 124 </h4>
+          <div class="text">
+            <h1> Navy Pier </h1>
+            <h2> 4 min </h2>
+            <h3> *comes every 10 min </h3>
+          </div>
+        </li>
+        <li>
+            <h4 class="onefiftyfourstop"> 154 </h4>
+          <div class="text">
+            <h1> Devon/Clark </h1>
+            <h2> 7 min </h2>
+            <h3> *comes every 16 min </h3>
+          </div>
+        </li>
+        <li>
+            <h4 class="jfourteenstop"> J14 </h4>
+          <div class="text">
+            <h1> 103rd/Stony Island </h1>
+            <h2> 8 min </h2>
+            <h3> *comes every 15 min </h3>
+          </div>
+        </li>
+      </ul>
+    </section>
+    </section>
+  </body>
+</html>
