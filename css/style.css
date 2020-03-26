@@ -35,7 +35,7 @@ body {
   background-repeat: no-repeat, no-repeat;
   background-size: contain, cover;
   height: 38vh;
-  border-bottom: 3px solid #D9DADC;
+  border-bottom: 5px solid #D9DADC;
 } /* statusbar & map image */
 
 .buslistings {
@@ -43,32 +43,45 @@ body {
 }
 
 ul {
-  height: 50%;
+  height: 51%;
   overflow: scroll;
+  overflow-x: hidden;
+  padding: 6px 5px 0px 8px;
 }
 
 li {
   /*padding: 10px;*/
   width: 100%;
   height: auto;
-  display: inline-block;
   margin-bottom: 10px;
-  padding: 15px;
+  padding: 13px;
   border: 1px solid #EBEBEB;
   border-radius: 8px;
 }
 
+.direction {
+  display: block;
+  font-weight: lighter;
+  margin-bottom: 3px;
+  font-size: .35em;
+  padding-left: 4px;
+}
+
 h1 {
   font-size: 1.3em;
-  display: inline-block;
-  padding: 10px 0px 0px 25px;
-  /* position: absolute; */
+  display: inline-block; /* lines up destination w/ bus # */
+  padding: 11px 0px 0px 18px;
   font-weight: bolder;
+  vertical-align: top;
+}
+
+img {
+  padding-bottom: 5px;
 }
 
 h2 {
-  padding-top: 12px;
-  font-size: 1.3em;
+  padding-top: 20px;
+  font-size: 1.2em;
   float: right;
   font-weight: bolder;
   text-align: right;
@@ -78,11 +91,12 @@ h2 {
   display: block;
   font-weight: lighter;
   font-size: .8em;
+  margin-top: 4px;
 }
 
 h4 {
   font-weight: bold;
-  font-size: 3.4em;
+  font-size: 3.3em;
   display: inline-block; /*lines up destination w/ bus # */
   width: 18%;
   /* padding-top: 20px; */
@@ -102,6 +116,14 @@ h4 {
 
 .jfourteenstop {
   color: #4176FF;
+}
+
+.sixxstop {
+  color: #E68647;
+}
+
+.fourstop {
+  color: #5D5DC7;
 }
 
 .text {
@@ -158,11 +180,4 @@ h4 {
 
 .divider {
   padding: 40px 0px 0px 130px;
-}
-
-.liveicon {
-  background-image: url(../images/livetimeicon.png);
-  background-position: left;
-  background-repeat: no-repeat;
-  float: left;
 }
