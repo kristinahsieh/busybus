@@ -30,7 +30,7 @@ body {
 } */
 
 .background {
-  background-image: url(images/statusbar.png), url(images/MapElements.png);
+  background-image: url(../images/statusbar.png), url(../images/MapElements.png);
   background position: top, top;
   background-repeat: no-repeat, no-repeat;
   background-size: contain, cover;
