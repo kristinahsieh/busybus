@@ -25,27 +25,21 @@ body {
   position: fixed;
 }
 
-/* .container {
-  overflow: scroll;
-} */
+
 
 .background {
   background-image: url(../images/statusbar.png), url(../images/MapElements.png);
   background position: top, top;
   background-repeat: no-repeat, no-repeat;
   background-size: contain, cover;
-  height: 38vh;
+  height: 330px;
   border-bottom: 5px solid #D9DADC;
 } /* statusbar & map image */
 
-.buslistings {
-  /* height: 80vh; */
-  overflow-y: hidden;
-}
 
 ul {
-  height: 51%;
-  overflow: scroll;
+  height: 335px;
+  overflow: auto;
   overflow-x: hidden;
   padding: 6px 5px 0px 8px;
 }
