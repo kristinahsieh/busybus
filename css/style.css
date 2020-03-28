@@ -39,7 +39,7 @@ body {
 
 ul {
   height: 335px;
-  overflow: auto;
+  overflow: scroll;
   overflow-x: hidden;
   padding: 6px 5px 0px 8px;
 }
