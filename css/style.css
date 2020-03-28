@@ -34,12 +34,12 @@ body {
   background position: top, top;
   background-repeat: no-repeat, no-repeat;
   background-size: contain, cover;
-  height: 30vh;
+  height: 38vh;
   border-bottom: 5px solid #D9DADC;
 } /* statusbar & map image */
 
 .buslistings {
-  height: 90vh;
+  /* height: 80vh; */
   overflow-y: hidden;
 }
 
