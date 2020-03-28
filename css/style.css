@@ -30,7 +30,7 @@ body {
 } */
 
 .background {
-  background-image: url(images/statusbar.png), url(images/MapElements.png);
+  background-image: url(../images/statusbar.png), url(../images/MapElements.png);
   background position: top, top;
   background-repeat: no-repeat, no-repeat;
   background-size: contain, cover;
@@ -137,7 +137,7 @@ h4 {
 .searchbox {
   height: 33px;
   width: 260px;
-  background-image: url(/images/switchicon.png);
+  background-image: url(../images/switchicon.png);
   background-repeat: no-repeat;
   background-position: right;
   margin-left: 10px;
@@ -150,7 +150,7 @@ h4 {
 }
 
 .backbutton {
-  background-image: url(/images/BackButtonIcon.png);
+  background-image: url(../images/BackButtonIcon.png);
   background-repeat: no-repeat;
   height: 23px;
   width: 22px;
@@ -160,7 +160,7 @@ h4 {
 }
 
 .morebutton{
-  background-image: url(/images/ellipsis.png);
+  background-image: url(../images/ellipsis.png);
   background-repeat: no-repeat;
   height: 6px;
   width: 17px;
@@ -170,7 +170,7 @@ h4 {
 }
 
 .dividerscroll {
-  background-image: url(/images/pullscreen.png);
+  background-image: url(../images/pullscreen.png);
   background-repeat: no-repeat;
   height: 18px;
   width: 80px;
